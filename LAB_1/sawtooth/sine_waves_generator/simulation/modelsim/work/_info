@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Study\DSP FGPA\LAB1\sine0\sine_waves_generator\simulation\modelsim
+vsine_wave_generator
+!i10b 1
+!s100 mjI?kT>LFz;;WKP<l6[l70
+Ij4VkdPR8V8IoPI_QB[S5E2
+Z1 VF`8Tg<9F1No2z;TPNEEL;0
+Z2 dD:\Study\DSP FGPA\LAB1\sawtooth\sine_waves_generator\simulation\modelsim
+w1739722623
+Z3 8D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/sine_wave_generator.v
+Z4 FD:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/sine_wave_generator.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1739722842.093000
+!s107 D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/sine_wave_generator.v|
+Z6 !s90 -reportprogress|300|-work|work|D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/sine_wave_generator.v|
+!s101 -O0
+Z7 o-work work -O0
+vsine_wave_generator_vlg_check_tst
+Z8 !s100 9i98Lo;dWAO@e]eKB6BNJ1
+Z9 Igm0=ij1VW86dJVAVB>aK01
+Z10 VGLYSAkWQBUJY=?:M9K]cJ3
+R2
+Z11 w1739597834
+Z12 8D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt
+Z13 FD:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt
+L0 61
+R5
+r1
+31
+Z14 !s108 1739722838.263000
+Z15 !s107 D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt|
+Z16 !s90 -reportprogress|300|-work|work|D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt|
+R7
+!i10b 1
+!s85 0
+!s101 -O0
+vsine_wave_generator_vlg_sample_tst
+Z17 !s100 k2jl@zPFNVgi_=Ue<:l3a1
+Z18 ICPRAHNS;LD@<KUU^h0kmz2
+Z19 VRJao9`9YEA7=[CGS<Ph]d1
+R2
+R11
+R12
+R13
+L0 29
+R5
+r1
+31
+R14
+R15
+R16
+R7
+!i10b 1
+!s85 0
+!s101 -O0
+vsine_wave_generator_vlg_vec_tst
+Z20 !s100 8O0[Z>JS>nMOb5jk]zZZW3
+Z21 I3oN]TfMD7U?JLH1d6YUAR2
+Z22 V^:jiIhFo<]zA>210ARmXm2
+R2
+R11
+R12
+R13
+Z23 L0 289
+R5
+r1
+31
+R14
+R15
+R16
+R7
+!i10b 1
+!s85 0
+!s101 -O0

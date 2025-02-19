@@ -1,0 +1,12 @@
+-- begin_signature
+-- sine_wave_generator
+-- end_signature
+WIDTH=8;
+DEPTH=1;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	0 :	00000101;
+END;

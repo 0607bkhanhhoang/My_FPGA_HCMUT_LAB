@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Quartus/sine_waves_generator/simulation/modelsim
+vsine_wave_generator
+!s110 1739597845
+!i10b 1
+!s100 D_CRHPdL?aKEJO>h`:n2Y2
+IE<d=883X7BQh=YbAB;T4E1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1739594166
+8E:/Quartus/sine_waves_generator/sine_wave_generator.v
+FE:/Quartus/sine_waves_generator/sine_wave_generator.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1739597845.000000
+!s107 E:/Quartus/sine_waves_generator/sine_wave_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Quartus/sine_waves_generator|E:/Quartus/sine_waves_generator/sine_wave_generator.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+E:/Quartus/sine_waves_generator
+Z3 tCvgOpt 0
+vsine_wave_generator_vlg_check_tst
+Z4 !s110 1739597852
+!i10b 1
+!s100 :jV?BJb@9MY4>9Qnb=GTn2
+IA1C<dDH8=VmjMd<EJ01eZ3
+R1
+R0
+Z5 w1739597834
+Z6 8E:/Quartus/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt
+Z7 FE:/Quartus/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt
+L0 61
+R2
+r1
+!s85 0
+31
+Z8 !s108 1739597852.000000
+Z9 !s107 E:/Quartus/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt|
+Z10 !s90 -reportprogress|30|-work|work|E:/Quartus/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt|
+!i113 1
+Z11 o-work work
+R3
+vsine_wave_generator_vlg_sample_tst
+R4
+!i10b 1
+!s100 U`Wb0I]O@baJl=lj4bz;Q3
+I17GKE[@66N:ZJAJmVihX@2
+R1
+R0
+R5
+R6
+R7
+L0 29
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3
+vsine_wave_generator_vlg_vec_tst
+R4
+!i10b 1
+!s100 5^z=]IK<]5Q;kR70JZH^P2
+I;2jdj1FCAhm5GgSn8nH<D3
+R1
+R0
+R5
+R6
+R7
+L0 289
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R3

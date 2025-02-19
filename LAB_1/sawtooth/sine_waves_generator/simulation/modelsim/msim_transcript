@@ -1,0 +1,82 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ** Error: (vish-42) Unsupported ModelSim library format for "D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/rtl_work". (Format: 4)
+# do dd_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Error: (vdel-42) Unsupported ModelSim library format for "D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/rtl_work". (Format: 4)
+# 
+# ** Warning: (vdel-57) Library 'D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/rtl_work' is missing or is not a valid ModelSim library.
+# 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vdel failed.
+# Error in macro ./dd_run_msim_rtl_verilog.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vdel failed.
+#     while executing
+# "vdel -lib rtl_work -all"
+#     invoked from within
+# "if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }"
+# ** Error: (vish-42) Unsupported ModelSim library format for "D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/rtl_work". (Format: 4)
+vlog -reportprogress 300 -work work {D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sine_wave_generator_vlg_sample_tst
+# -- Compiling module sine_wave_generator_vlg_check_tst
+# -- Compiling module sine_wave_generator_vlg_vec_tst
+# 
+# Top level modules:
+# 	sine_wave_generator_vlg_vec_tst
+# ** Error: (vish-42) Unsupported ModelSim library format for "D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/rtl_work". (Format: 4)
+vlog -reportprogress 300 -work work {D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/sine_wave_generator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sine_wave_generator
+# 
+# Top level modules:
+# 	sine_wave_generator
+# ** Error: (vish-42) Unsupported ModelSim library format for "D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/rtl_work". (Format: 4)
+vsim work.sine_wave_generator_vlg_vec_tst
+# vsim work.sine_wave_generator_vlg_vec_tst 
+# Loading work.sine_wave_generator_vlg_vec_tst
+# Loading work.sine_wave_generator
+# Loading work.sine_wave_generator_vlg_sample_tst
+# Loading work.sine_wave_generator_vlg_check_tst
+add wave sim:/sine_wave_generator_vlg_vec_tst/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: dell  Hostname: FREEDOM  ProcessID: 9380
+# 
+#           Attempting to use alternate WLF file "./wlftvbdt0j".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftvbdt0j
+# 
+run -all
+# ERROR! Vector Mismatch for output port sine_out[0] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11100011
+# ERROR! Vector Mismatch for output port sine_out[1] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11100011
+# ERROR! Vector Mismatch for output port sine_out[5] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11100011
+# ERROR! Vector Mismatch for output port sine_out[6] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11100011
+# ERROR! Vector Mismatch for output port sine_out[7] :: @time = 1000000.000 ps
+#      Expected value = 00000000
+#      Real value = 11100011
+# ERROR! Vector Mismatch for output port sine_out[2] :: @time = 1020000.000 ps
+#      Expected value = 00000000
+#      Real value = 11100101
+# ERROR! Vector Mismatch for output port sine_out[3] :: @time = 1060000.000 ps
+#      Expected value = 00000000
+#      Real value = 11101001
+# ERROR! Vector Mismatch for output port sine_out[4] :: @time = 1140000.000 ps
+#      Expected value = 00000000
+#      Real value = 11110001
+#           8 mismatched vectors : Simulation failed !
+# ** Note: $finish    : D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt(285)
+#    Time: 100 us  Iteration: 0  Instance: /sine_wave_generator_vlg_vec_tst/tb_out
+# 1
+# Break in Module sine_wave_generator_vlg_check_tst at D:/Study/DSP FGPA/LAB1/sawtooth/sine_waves_generator/simulation/modelsim/Waveform.vwf.vt line 285
